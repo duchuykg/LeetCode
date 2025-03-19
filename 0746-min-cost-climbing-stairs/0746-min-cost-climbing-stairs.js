@@ -12,6 +12,5 @@ var minCostClimbingStairs = function(cost) {
         l1 = l2;
         l2 = min;
     }
-
     return Math.min(l1, l2);
 };
